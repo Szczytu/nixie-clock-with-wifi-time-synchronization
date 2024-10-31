@@ -15,7 +15,14 @@ Prototype of nixie clock synchronized via wifi on contact boards
 
 # Clock and PCB design
 
-The clock board design is located in the folder The project was created in EasyEDA.
+The clock board design is located in the folder "PCB Design and schematic NIXIE_CLOCK_WiFi". The project was created in EasyEDA.
+## Schematic
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e0a3af02-0b26-4107-9c3b-5b282bb35c95">
+</div>
+
+## 2D & 3D model
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0b7f61f3-279c-4aae-88c6-4f93528c5caf">
