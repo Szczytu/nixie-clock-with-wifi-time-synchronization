@@ -10,7 +10,7 @@ The project shows the realization of a clock synchronized via NTP (Network Time 
 Prototype of nixie clock synchronized via wifi on contact boards
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/787d145e-67db-4726-9b10-4195d549dd60" width="500" controls></video>
+  <video src="https://github.com/user-attachments/assets/46853f0a-dc1a-495f-91aa-ef3c661f1603" width="500" controls></video>
 </div>
 
 # Clock and PCB design
