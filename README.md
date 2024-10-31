@@ -9,7 +9,7 @@ The project shows the realization of a clock synchronized via NTP (Network Time 
 
 ## Connecting the clock to the internet 
 
-Once the clock is connected to the mains power supply, the clock switches to the Access Point function and creates a WEB page where you need to configure the clock. 
+Once the clock is connected to the mains power supply, the clock switches to the Access Point function and creates a WEB page where you need to configure the clock. The connection of the module to the Internet was realized using the library https://github.com/tzapu/WiFiManager
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/af882506-f91b-4b19-854e-57743f1a6c6d">
@@ -25,7 +25,7 @@ After logging into the created AP, the user will be automatically redirected to 
 > If the user first sets up the Wi-Fi network, the clock enters station mode, ejects from the WEB page and starts downloading the universal time from the time server. To reconfigure, press the RESET button implemented on pin 2 (D4) of the NODEMCUv3+ ESP8266 module.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/94d13a40-18fe-42ab-9349-ce5409d00e1b">
+  <img src="https://github.com/user-attachments/assets/10a22040-efa9-433d-9d86-332233d7f87e">
 </div>
 
 After saving the Wi-Fi network, the module starts downloading the time from the server, then the downloaded time is corrected by the time zone and is sent via the serial port to the station
