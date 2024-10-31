@@ -12,14 +12,14 @@ The project shows the realization of a clock synchronized via NTP (Network Time 
 Once the clock is connected to the mains power supply, the clock switches to the Access Point function and creates a WEB page where you need to configure the clock. 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b2bec4fe-66a8-4a85-bc18-1e329ba2c50f">
+  <img src="https://github.com/user-attachments/assets/af882506-f91b-4b19-854e-57743f1a6c6d">
 </div>
 
 After logging into the created AP, the user will be automatically redirected to the WEB page (default address 192.168.4.1). To properly configure the time, first set the time zone and then proceed to the Wi-Fi configuration. The “Set time zone” button allows the user to select the appropriate time for the region. After confirming the selected time zone with the “Save” button, to complete the time configuration, go back to the configuration panel and select “Configure WiFi”. If the user first sets up the Wi-Fi network, the clock enters station mode, ejects from the WEB page and starts downloading the universal time from the time server. To reconfigure, press the RESET button implemented on pin 2 (D4) of the NODEMCUv3+ ESP8266 module.
 After saving the Wi-Fi network, the module starts downloading the time from the server, then the downloaded time is corrected by the time zone and is sent via the serial port to the station
 destination - the arduino. In the event that the module is unable to connect to the selected network, it resets and starts working in AP mode again, allowing you to reconfigure. The time is corrected by time zone and sent to the microcontroller
 
-###Prototype of nixie clock synchronized via wifi on contact boards
+### Prototype of nixie clock synchronized via wifi on contact boards
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/46853f0a-dc1a-495f-91aa-ef3c661f1603" width="500" controls></video>
