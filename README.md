@@ -19,7 +19,7 @@ The clock board design is located in the folder The project was created in EasyE
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0b7f61f3-279c-4aae-88c6-4f93528c5caf">
-  <img src="https://github.com/user-attachments/assets/7ae4ea59-546d-4fb6-8a0d-9475b08432b7">
   <img src="https://github.com/user-attachments/assets/fa523a78-6afe-419e-af66-6c50c42176a7">
+  <img src="https://github.com/user-attachments/assets/7ae4ea59-546d-4fb6-8a0d-9475b08432b7">
 </div>
 
