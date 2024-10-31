@@ -19,6 +19,7 @@ The clock board design is located in the folder "PCB Design and schematic NIXIE_
 ## Schematic
 
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/6005aa87-4761-4f30-8a50-4c1d686fae1f">
   <img src="https://github.com/user-attachments/assets/e0a3af02-0b26-4107-9c3b-5b282bb35c95">
 </div>
 
