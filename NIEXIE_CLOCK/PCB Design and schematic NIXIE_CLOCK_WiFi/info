@@ -1,0 +1,241 @@
+{
+  "uuid": "5c93c6f43cb891859bba38646c7572ae",
+  "path": "Offline/PCB%20Design%20and%20schematic%20NIXIE_CLOCK_WiFi",
+  "name": "PCB Design and schematic NIXIE_CLOCK_WiFi",
+  "content": "",
+  "created_at": "2022-11-21 19:47:48",
+  "updated_at": "2024-10-29 15:51:04",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "93300d6227af3077d41811a29d8e19e9",
+      "title": "Schemat NixieClock",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "dbac94b880d84fad8179126728ee34e4": 6,
+        "c1f9537542fe426e96a555539ad4b0e8": 2,
+        "824bd8aa48fd4dd1bdddd97ef57b4c42": 6,
+        "767645f70b714d178f32e33a5c33f14e": 1,
+        "f2a93effb6924aa099edab1530f6c329": 2,
+        "629bc1ee46694ee8b1548e83e268f943": 12,
+        "afeb24dc4eac4041abcf847e49dee66f": 1,
+        "1de4ac683c7848af930cf07f25fe8829": 1,
+        "b077d98664234fa0aae9fa410b1c1e4c": 1,
+        "99262b3cf5364cc3987666c9be4494b2": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "NCH8200HV",
+          1,
+          "NCH8200HV",
+          "M1",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "BOM_Supplier Part": "NCH8200HV",
+            "BOM_Supplier": "NixieClock",
+            "puuid": "8cabb527ae8142109c5cfab7c0eb684c",
+            "uuid": "767645f70b714d178f32e33a5c33f14e"
+          }
+        ],
+        [
+          "NODEMCU_V3_ESP8266",
+          1,
+          "ESP8266_DEVKIT-V3",
+          "MCU1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d5e862152d064374ad7ef4c7447099d0",
+            "uuid": "b077d98664234fa0aae9fa410b1c1e4c"
+          }
+        ],
+        [
+          "ZM1000D-SUB",
+          6,
+          "ZM1000-DSUB",
+          "N1,N2,N3,N4,N5,N6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "4bb8f98a6ae640908fa322bb507fa0c6",
+            "uuid": "dbac94b880d84fad8179126728ee34e4"
+          }
+        ],
+        [
+          "nixies-us_IN-3",
+          2,
+          "NIXIES-US-IN-3",
+          "N7,N8",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "0fefc959456f4a458a9d06bf5a4a4a84",
+            "uuid": "c1f9537542fe426e96a555539ad4b0e8"
+          }
+        ],
+        [
+          "MJE340",
+          2,
+          "SOT-32_L7.6-W2.7-P2.15-L",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C283424",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "MJE340",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ac47dfd39d22439c8557d420b4cca76a",
+            "uuid": "f2a93effb6924aa099edab1530f6c329"
+          }
+        ],
+        [
+          "33k",
+          2,
+          "R3",
+          "R1,R2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e5b0ad5179742c6b5bbb3800482b3fa",
+            "uuid": "629bc1ee46694ee8b1548e83e268f943"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R3",
+          "R3,R4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e5b0ad5179742c6b5bbb3800482b3fa",
+            "uuid": "629bc1ee46694ee8b1548e83e268f943"
+          }
+        ],
+        [
+          "10k",
+          6,
+          "R3",
+          "R5,R6,R7,R8,R9,R10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e5b0ad5179742c6b5bbb3800482b3fa",
+            "uuid": "629bc1ee46694ee8b1548e83e268f943"
+          }
+        ],
+        [
+          "100k",
+          2,
+          "R3",
+          "R13,R14",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e5b0ad5179742c6b5bbb3800482b3fa",
+            "uuid": "629bc1ee46694ee8b1548e83e268f943"
+          }
+        ],
+        [
+          "Push-button",
+          1,
+          "PB6MM",
+          "SW1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3948d8c020dd474d9ecfd9b19fd50f00",
+            "uuid": "99262b3cf5364cc3987666c9be4494b2"
+          }
+        ],
+        [
+          "ARDUINO MEGA 2560 R3",
+          1,
+          "TWIX_MEGA_PCB____ARDUINO-MEGA2560-FOOTPRINT_",
+          "U1",
+          {
+            "BOM_Manufacturer": "Ricardo",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f64df49f6e06414c954b3657defb1430",
+            "uuid": "1de4ac683c7848af930cf07f25fe8829"
+          }
+        ],
+        [
+          "K155ID1",
+          6,
+          "K155ID",
+          "U3,U4,U5,U6,U7,U8",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "394d788cd0634bf487a01d5f8b5c0b97",
+            "uuid": "824bd8aa48fd4dd1bdddd97ef57b4c42"
+          }
+        ],
+        [
+          "12VDC Power Supply",
+          1,
+          "12VDC POWER SUPPLY.1",
+          "U9",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "",
+            "uuid": "afeb24dc4eac4041abcf847e49dee66f"
+          }
+        ]
+      ],
+      "updateTime": 1730213464,
+      "createTime": 1669056469,
+      "histories": [],
+      "created_at": "2022-11-21 19:47:49",
+      "updated_at": "2024-10-29 15:51:04"
+    },
+    {
+      "uuid": "328d1ed5a244fe2878689c4cf23a3030",
+      "puuid": "71d387fdb0f74d0bd094c051d8c49b6b",
+      "title": "PCB_NixieClock",
+      "filename": "PCB_NixieClock.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ac47dfd39d22439c8557d420b4cca76a": 2,
+        "8cabb527ae8142109c5cfab7c0eb684c": 1,
+        "b3e305a82d7242ec9cb79f6ab267d0d2": 5,
+        "394d788cd0634bf487a01d5f8b5c0b97": 1,
+        "4bb8f98a6ae640908fa322bb507fa0c6": 6,
+        "0fefc959456f4a458a9d06bf5a4a4a84": 2,
+        "d5e862152d064374ad7ef4c7447099d0": 1,
+        "3948d8c020dd474d9ecfd9b19fd50f00": 1,
+        "8e5b0ad5179742c6b5bbb3800482b3fa": 12,
+        "f64df49f6e06414c954b3657defb1430": 1
+      },
+      "BOM": [],
+      "updateTime": 1730202778,
+      "createTime": 1669154513,
+      "histories": [],
+      "created_at": "2022-11-22 23:01:53",
+      "updated_at": "2024-10-29 12:52:58"
+    }
+  ],
+  "sort": [],
+  "title": "PCB Design and schematic NIXIE_CLOCK_WiFi",
+  "foldername": "PCB Design and schematic NIXIE_CLOCK_WiFi",
+  "schfilename": "NixieClock.json",
+  "schfilemtime": 1730213464858
+}
