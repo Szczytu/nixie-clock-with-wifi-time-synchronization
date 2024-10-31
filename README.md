@@ -71,7 +71,7 @@ The clock board design is located in the folder "PCB Design and schematic NIXIE_
 # List of elements needed to build the project
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/710dd872-f18c-4c1c-94f8-db18307dfe03">
+  <img src="https://github.com/user-attachments/assets/b7d83b67-651a-4037-bd7b-8fbb003574b6">
 </p>
 
 - ARDUINO Mega2560
@@ -89,4 +89,4 @@ The clock board design is located in the folder "PCB Design and schematic NIXIE_
 
 
 > [!WARNING]
-> Nixie tubes operate at a high voltage of 170V, special care should be taken when working with high voltage.
+> Nixie tubes operate at a high voltage of 170 V! BE CAREFUL while working!
