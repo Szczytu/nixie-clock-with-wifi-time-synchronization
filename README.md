@@ -1,6 +1,7 @@
 # nixie-clock-with-wifi-time-synchronization
 
-The project presents .
+The project shows the realization of a clock synchronized via NTP (Network Time Protocol), which connects to the server as a client via WiFi network.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/298220fc-c43b-4acf-943a-f71bef6a60b2">
 </p>
@@ -10,5 +11,8 @@ The project presents .
 
 Prototype of nixie clock synchronized via wifi on contact boards
 
-https://github.com/user-attachments/assets/787d145e-67db-4726-9b10-4195d549dd60
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/787d145e-67db-4726-9b10-4195d549dd60" width="500" controls></video>
+</div>
+
 
