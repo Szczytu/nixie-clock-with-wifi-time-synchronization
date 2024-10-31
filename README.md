@@ -21,7 +21,11 @@ The clock board design is located in the folder "PCB Design and schematic NIXIE_
 <div align="center">
   <img src="https://github.com/user-attachments/assets/6005aa87-4761-4f30-8a50-4c1d686fae1f">
 </div>
-
+## Overview of connecting the Arduino Mega 2560 to the NODEMCUv3 module
+# Tab.1 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1c0e8ade-3116-4d32-b64e-5017babe3ac1">
+</div>
 ## 2D & 3D model
 
 <div align="center">
