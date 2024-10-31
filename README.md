@@ -68,3 +68,25 @@ The clock board design is located in the folder "PCB Design and schematic NIXIE_
   <img src="https://github.com/user-attachments/assets/7ae4ea59-546d-4fb6-8a0d-9475b08432b7">
 </div>
 
+# List of elements needed to build the project
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/710dd872-f18c-4c1c-94f8-db18307dfe03">
+</p>
+
+- ARDUINO Mega2560
+- WiFi ESP8266 + NodeMCU v3 module / you can use esp8266 or esp32 
+- 2x IN-3 ИН-3 NEON LAMP
+- 6x nixie zm1000 lamps or different
+- 6x DECODER К155ИД1 / 1 each for 1 lamp
+- NCH8200HV Nixie DC-DC High Voltage Boost Power Converter
+- 6x 10k Ohm Resistors
+- 2x 100k Ohm Resistors
+- 2x 33k Ohm Resistors
+- 2x 1k Ohm Resistors
+- 1x push button
+- 1x power supply 12V/1A
+
+
+> [!WARNING]
+> Nixie tubes operate at a high voltage of 170V, special care should be taken when working with high voltage.
