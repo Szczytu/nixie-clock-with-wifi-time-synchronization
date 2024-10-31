@@ -21,7 +21,9 @@ After logging into the created AP, the user will be automatically redirected to 
   <img src="https://github.com/user-attachments/assets/b26b2283-a3b6-4e70-acc1-788a26e038a8">
 </div>
 
-If the user first sets up the Wi-Fi network, the clock enters station mode, ejects from the WEB page and starts downloading the universal time from the time server. To reconfigure, press the RESET button implemented on pin 2 (D4) of the NODEMCUv3+ ESP8266 module.
+> [!IMPORTANT]
+> If the user first sets up the Wi-Fi network, the clock enters station mode, ejects from the WEB page and starts downloading the universal time from the time server. To reconfigure, press the RESET button implemented on pin 2 (D4) of the NODEMCUv3+ ESP8266 module.
+
 After saving the Wi-Fi network, the module starts downloading the time from the server, then the downloaded time is corrected by the time zone and is sent via the serial port to the station
 destination - the arduino. In the event that the module is unable to connect to the selected network, it resets and starts working in AP mode again, allowing you to reconfigure. The time is corrected by time zone and sent to the microcontroller
 
