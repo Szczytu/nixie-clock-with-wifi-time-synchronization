@@ -18,7 +18,7 @@ Once the clock is connected to the mains power supply, the clock switches to the
 After logging into the created AP, the user will be automatically redirected to the WEB page (default address 192.168.4.1). To properly configure the time, first set the time zone and then proceed to the Wi-Fi configuration. The “Set time zone” button allows the user to select the appropriate time for the region. After confirming the selected time zone with the “Save” button, to complete the time configuration, go back to the configuration panel and select “Configure WiFi”.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/2b5aa388-52e8-4409-978e-2bc38e22a994">
+  <img src="https://github.com/user-attachments/assets/b26b2283-a3b6-4e70-acc1-788a26e038a8">
 </div>
 
 If the user first sets up the Wi-Fi network, the clock enters station mode, ejects from the WEB page and starts downloading the universal time from the time server. To reconfigure, press the RESET button implemented on pin 2 (D4) of the NODEMCUv3+ ESP8266 module.
