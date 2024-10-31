@@ -6,7 +6,7 @@ The project shows the realization of a clock synchronized via NTP (Network Time 
   <img src="https://github.com/user-attachments/assets/298220fc-c43b-4acf-943a-f71bef6a60b2">
   <img src="https://github.com/user-attachments/assets/ee1c5626-6051-4007-a467-95551fabe575">
 </div>
-<img src="https://github.com/user-attachments/assets/ee1c5626-6051-4007-a467-95551fabe575">
+img src="https://github.com/user-attachments/assets/ee1c5626-6051-4007-a467-95551fabe575"
 Prototype of nixie clock synchronized via wifi on contact boards
 
 <div align="center">
